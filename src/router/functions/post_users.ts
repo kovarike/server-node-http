@@ -1,7 +1,7 @@
 import { IncomingMessage, ServerResponse } from 'http';
 import {prisma} from '../../prisma/client/prismaClient';
 import { v4 as uuid } from 'uuid';
-import { validateUser } from '../../schema/schema-users';
+import { validateUser } from '../../schema/validator';
 type PropsPostUsers = {
     req: IncomingMessage,
     res: ServerResponse
