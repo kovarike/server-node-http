@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "seed": "ts-node src/seed/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.5.4",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.19.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  }
+}
